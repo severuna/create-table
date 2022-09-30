@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+}
+/* header styles */
+.header {
+    text-align: center;
+}
+/* h1 styles */
+h1 {
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 40%;
+    margin-right: 40%;
+    background-color: tomato;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px black;
+}
+/* header text styles */
+.header p {
+    padding: 5px;
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-left: 5px dashed turquoise;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-right: 5px dashed turquoise;
+}
+/* section form style */
+.form {
+    display:inline-flex;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+.form-group {
+    display:grid; 
+    margin-top: 20px;
+    text-align: center;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 15px;
+}
+#buttonCreateTable, .save-button {
+    text-align:center;
+    padding: 10px;
+    font-size: 26px;
+    font-weight: 900;
+    border-radius: 10px;
+    background-color: black;
+    color:tomato;
+}
+caption, td{
+    border: 1px solid black;
+}
+caption {
+    border-radius: 5px 5px 0px 0px;
+}
+table {
+    margin: 5% 10% 10px 10%;
+    width: 80%;
+    font-size: 26px;
+    border-spacing: 0 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+table input {
+    border:0;
+    width: 100%;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.save-button {
+    margin: 20px 40% 0 40%;
+    width: 20%;
+    font-size: 22px;
+}
